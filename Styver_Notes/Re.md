@@ -13,7 +13,8 @@ void f(i,n) ...... O(n)
     f(i+1);    //recursive call
 main : call f(0,n)
 ```
-<img src="[image.png](https://github.com/vinitkesh/DSA_CP_in_cpp/assets/139075087/bb6b51df-468c-45f2-bd90-a564dd041965)" width="200" height="300">
+![image](https://github.com/vinitkesh/DSA_CP_in_cpp/assets/139075087/c371cfcb-e252-4402-bbb0-b16fa81b687d)
+
 
 ### 2. print linearly from 1 to n
 
