@@ -1,10 +1,6 @@
-# Hashing:
+#include <bits/stdc++.h>
+using namespace std;
 
-- ### Prestoring and fetching  
-- ### Max size of an array inside main can be 10^6 and max size of an array in global array in 10^7.
-- 
-[hashing1.cpp](./hashing1.cpp)
-```
 int main()
 {
     int t;cin>>t;
@@ -22,11 +18,3 @@ int main()
     }
     return 0;
 }
-```
-
-[Charector Hashing](hashing2.cpp)
-![Alt text](image-4.png)
-
-## Character hashing:
-
-
