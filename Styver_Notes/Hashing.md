@@ -38,7 +38,14 @@ int main()
 
 ### ***Number hasing issue- At max we can do it is 10^7.***
 
-## Map and unordered map:
+# Map 🗺️
+
+|       | Storing | Fetching |
+|-------|---------|----------|
+| Best  | O( )    | O( )    |
+| Worst | O( )    | O( )    |
+| Avg   | O( )    | O( )    |
+
 
 - ### imagine you are given an arr 1,2,3,1,3,2
 - ### map< int key, int value>
@@ -51,7 +58,7 @@ int main()
 - ### Map keeps all values in sorted form 
 - ###  Storing or fetching takes O(Log(n)) for all cases:best/worst/avg
 
-## Unordered Map
+# Unordered Map 🗺️
 
 |       | Storing | Fetching |
 |-------|---------|----------|
