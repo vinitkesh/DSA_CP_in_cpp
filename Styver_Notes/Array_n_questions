@@ -1,0 +1,15 @@
+Arrays and questions
+
+
+# Arrays in c++
+
+```cpp
+int arr[n]={2};
+// gives an array of size n with all values as 2
+```
+
+when value
+## 
+# largest element in array
+## 1. brute force
+# Find Second largest element
