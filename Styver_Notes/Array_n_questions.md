@@ -8,11 +8,6 @@ int arr[n]={2};
 // gives an array of size n with all values as 2
 ```
 
-when value
-## 
-# largest element in array
-## 1. brute force
-# Find Second largest element
 
 # 2Sum Problem		
 # Sort an array of 0's 1's and 2's		
