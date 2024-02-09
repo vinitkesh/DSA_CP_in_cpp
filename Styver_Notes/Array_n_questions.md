@@ -26,33 +26,63 @@ when value
 
 # Tip: to stand out in interview, write proper interger names
 
-# 1. Check if an array is sorted:
+## Q. Missing number problem: [Leetcode Easy](https://leetcode.com/problems/missing-number/description/)
+> - eg: {1,2,4,5,6}... output should be 3 suice it is missing 
+
+### Soln 1: Find sum of the array
+> $$Time:O(n),Space:O(1)$$
+> 1. Find sum of the array and sum of 1 to len-1  
+> 2. The difference is the answer
+> Can have problem storing the sum if the array is too long
+### Soln 2: XOR method
+![Alt text](image-8.png)  
+- When you XOR a number with itself gives zero
+- OR with all those XOR will give give 0 give  
+
+![  ](image-9.png)
+
+
+[](This_is_a_comment)
 
 
 
-=======
 
-# Arrays in c++
+<h1 style="color:orange;font-size:2.5rem;"> Longest Sub-Array with sum K		</h1>
 
-```cpp
-int arr[n]={2};
-// gives an array of size n with all values as 2
-```
+> ### Similar leetcode quesion: [Leetcode 560 medium](https://leetcode.com/problems/subarray-sum-equals-k/)  
+> </br>
 
 
-<h1 style="color:orange;">2Sum Problem		</h1>
-<h1 style="color:orange;">Sort an array of 0's 1's and 2's		</h1>
-<h1 style="color:orange;">Majority Element (>n/2 times)		</h1>
-<h1 style="color:orange;">Kadane's Algorithm, maximum subarra…		</h1>
-<h1 style="color:orange;">Print subarray with maximum subarra…	</h1>
-<h1 style="color:orange;">Stock Buy and Sell		</h1>
-<h1 style="color:orange;">Rearrange the array in alternating …		</h1>
-<h1 style="color:orange;">Next Permutation		</h1>
-<h1 style="color:orange;">Leaders in an Array problem		</h1>
-<h1 style="color:orange;">Longest Consecutive Sequence in an …		</h1>
-<h1 style="color:orange;">Set Matrix Zeros		</h1>
-<h1 style="color:orange;">Rotate Matrix by 90 degrees		</h1>
-<h1 style="color:orange;">Print the matrix in spiral manner		</h1>
-<h1 style="color:orange;">Count subarrays with given sum    </h1>
+<!--////////////////////////////////////////////////////////////-->
+<h1 style="color:orange;font-size:2.5rem;"> 2Sum Problem		</h1>
+<!--////////////////////////////////////////////////////////////-->
+<h1 style="color:orange;font-size:2.5rem;"> Sort an array of 0's 1's and 2's		</h1>
 
->>>>>>> 770e159f50378d6c10b5b7ee8104e9421926c1dc
+<!--////////////////////////////////////////////////////////////-->
+<h1 style="color:orange;font-size:2.5rem;"> Majority Element (>n/2 times)		</h1>
+
+
+<!--////////////////////////////////////////////////////////////-->
+<h1 style="color:orange;font-size:2.5rem;"> Kadane's Algorithm, maximum subarra…		</h1>
+
+<!--////////////////////////////////////////////////////////////-->
+<h1 style="color:orange;font-size:2.5rem;"> Print subarray with maximum subarra…	</h1>
+<!--////////////////////////////////////////////////////////////-->
+<h1 style="color:orange;font-size:2.5rem;"> Stock Buy and Sell		</h1>
+<!--////////////////////////////////////////////////////////////-->
+<h1 style="color:orange;font-size:2.5rem;"> Rearrange the array in alternating …		</h1>
+<!--////////////////////////////////////////////////////////////-->
+<h1 style="color:orange;font-size:2.5rem;"> Next Permutation		</h1>
+<!--////////////////////////////////////////////////////////////-->
+<h1 style="color:orange;font-size:2.5rem;"> Leaders in an Array problem		</h1>
+
+<!--////////////////////////////////////////////////////////////-->
+<h1 style="color:orange;font-size:2.5rem;"> Longest Consecutive Sequence in an …		</h1>
+<!--////////////////////////////////////////////////////////////-->
+<h1 style="color:orange;font-size:2.5rem;"> Set Matrix Zeros		</h1>
+<!--////////////////////////////////////////////////////////////-->
+<h1 style="color:orange;font-size:2.5rem;"> Rotate Matrix by 90 degrees		</h1>
+
+<!--////////////////////////////////////////////////////////////-->
+<h1 style="color:orange;font-size:2.5rem;"> Print the matrix in spiral manner		</h1>
+<h1 style="color:orange;font-size:2.5rem;"> Count subarrays with given sum    </h1>
