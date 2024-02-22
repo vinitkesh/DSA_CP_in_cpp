@@ -4,5 +4,5 @@ A repo to keep track of all my DSA notes, Questions solved and CP contests and o
 
  | Title | Link | Comment |
  |--|--|--|
- |  [STL and CPP notes] | [LINK]() |  |
+ |  STL and CPP notes | [LINK]() |  |
 
