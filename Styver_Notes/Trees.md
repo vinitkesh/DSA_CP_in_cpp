@@ -267,8 +267,30 @@ vector < int > inOrderTrav(node * curr) {
 
 # L12
 # L13
-# L14
-# L15
+# L14 Max depth of a Binary Tree
+
+> 25 Feb '24
+
+We can do recusive or level order method
+
+### Psuedocode:
+```c
+Maxdepth(node root)
+    if(root==NULL){
+        return 0
+    else if(root->keft == NULL && root->right == NULL)
+        return 0
+
+    int L = MaxDepth(root->left)
+    int R = MaxDepth(root->Right)
+    return 1 + max(L,R)
+```
+
+
+# L15 Check for balanced binary tree
+
+
+
 # L16
 # L17
 # L18
